@@ -1,0 +1,170 @@
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+
+* {margin: 0; padding: 0;}
+
+html, body {min-height: 100%;}
+
+div#fixed_upper_right {
+    position: fixed;
+    padding-top: 2em;
+    padding-right: 2em;
+    top: 1em; !important;
+    right: 1em; !important;
+}
+
+div#fixed_upper_right>a.buttonRound#buttonImpressum {
+    padding-left: .65em;
+    padding-right: .65em;
+}
+
+
+div#fixed_upper_right>a.buttonRound {
+    height: 3em;
+    width: 3em;
+    border-radius: 3em;
+    font-size: 2em;
+    text-decoration: none;
+    padding: .3em .7em .3em .7em;
+    color: #fefefe;
+    text-align: center;
+    text-shadow: 0 1px 2px #0D4D4D;
+    background: #226666;
+    border: 0;
+    border-bottom: 2px solid #0D4D4D;
+    -webkit-box-shadow: inset 0 -2px #0D4D4D;
+    box-shadow: inset 0 -2px #0D4D4D;
+}
+
+div#fixed_upper_right>a.buttonRound:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+div#fixed_upper_right>a.buttonRound:hover {
+    background: #0D4D4D;
+}
+
+body {
+    text-align: center;
+    padding-top: 2em;
+    color: #0D4D4D;
+    background: #eee;
+//background: linear-gradient(#689976, #ACDACC);
+    font-family: 'Merriweather Sans', arial, verdana;
+}
+
+h1, p {
+    color: #0D4D4D;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 0 2px 1px #000;
+}
+
+.center {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.finished  {
+    color: black !important;
+}
+
+/**********************************************************************************************************************/
+
+
+.button {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    color: #fefefe;
+    text-align: center;
+    text-shadow: 0 1px 2px #0D4D4D;
+    background: #226666;
+    border: 0;
+    border-bottom: 2px solid #0D4D4D;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #0D4D4D;
+    box-shadow: inset 0 -2px #0D4D4D;
+    border-radius: .2em;
+    padding: .5em;
+}
+.button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.button:hover{
+    background: #0D4D4D;
+}
+a:hover {
+    color: #fefefe;
+    text-decoration: none;
+}
+a#button_download {
+    padding: .7em !important;
+    text-decoration: none;
+}
+
+#button_download {
+
+}
+
+.button.submit {
+    width: 7em;
+    height: 2em;
+    font-size: 1.2em;
+}
+
+input {
+    padding: .1em;
+    font-size: 1.5em;
+    width: 2em;
+}
+
+div.form {
+    text-align: left;
+
+}
+
+.survey {
+    margin: auto;
+    width: 100%;
+    height: 100em;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0em;
+    display: none;
+}
+
+img#logo {
+    height: 15em;
+    margin-bottom: 30px;
+}
+
+p b a {
+    color: #0D4D4D;
+}
+
+p b a:hover {
+    color: #226666;
+}
+
+
+a.linkstyle {
+    color: #0D4D4D; !important;
+}
+
+a.linkstyle:hover {
+    color: #226666; !important;
+}
